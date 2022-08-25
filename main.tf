@@ -2,6 +2,11 @@ resource "aws_s3_bucket" "repo_1_bucket" {
   bucket = "abc"
 }
 
+resource "aws_ebs_volume" "dev_volume" {
+
+}
+
+
 module "local_module" {
   source = "./module"
 }
