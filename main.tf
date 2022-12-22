@@ -2,7 +2,6 @@ resource "aws_s3_bucket" "bucket" {
 
 }
 
-
 resource "aws_security_group_rule" "sgrule" {
   
 }
